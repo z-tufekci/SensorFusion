@@ -11,21 +11,3 @@ In this course we will be talking about sensor fusion, whch is the process of ta
 **Radar** data is typically very sparse and in a limited range, however it can directly tell us how fast an object is moving in a certain direction. This ability makes radars a very pratical sensor for doing things like cruise control where its important to know how fast the car infront of you is traveling. Radar sensors are also very affordable and common now of days in newer cars.
 
 **Sensor Fusion** by combing lidar's high resoultion imaging with radar's ability to measure velocity of objects we can get a better understanding of the sorrounding environment than we could using one of the sensors alone.
-
-
-## Installation
-
-### Linux Ubuntu 16
-
-Install PCL, C++
-
-The link here is very helpful, 
-https://larrylisky.com/2014/03/03/installing-pcl-on-ubuntu/
-
-A few updates to the instructions above were needed.
-
-* libvtk needed to be updated to libvtk6-dev instead of (libvtk5-dev). The linker was having trouble locating libvtk5-dev while building, but this might not be a problem for everyone.
-
-* BUILD_visualization needed to be manually turned on, this link shows you how to do that,
-http://www.pointclouds.org/documentation/tutorials/building_pcl.php
-
